@@ -26,6 +26,12 @@ if (giocatore > computer) {
 
 }
 
+
+document.getElementById('giocatore').innerHTML = 'Il giocatore ha scelto: ' + giocatore;
+document.getElementById('computer').innerHTML = 'Il computer ha scelto: ' + computer;
+document.getElementById('risultato').innerHTML = vincitore;
+
+
 console.log('Il giocatore ha scelto: ' + giocatore);
 console.log('Il computer ha scelto: ' + computer);
 console.log(vincitore);
