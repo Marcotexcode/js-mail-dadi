@@ -18,7 +18,8 @@ body {
 }
 
 .container h1 {
-    margin: 60px;
+    text-transform: uppercase;
+    margin: 60px 0px;
 }
 
 .scelte {
@@ -30,6 +31,7 @@ body {
 }
 
 .scelte h2 {
+    font-size: 25px;
     margin: 50px;
 }
 
@@ -61,3 +63,14 @@ body {
         transform: translateY(0);
     }
 }
+
+
+
+@media screen and (max-width: 800px) {
+
+    .scelte{
+        width: 100%;
+    }
+}
+
+
