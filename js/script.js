@@ -7,7 +7,7 @@
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 
-// 1 - Generare numeri random
+// 1 - Generare numeri random da 1 a 6 (+1: compreso 6 )
 
 var giocatore = Math.floor(Math.random() * 6) + 1;
 var computer = Math.floor(Math.random() * 6) + 1;
